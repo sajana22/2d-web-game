@@ -1,0 +1,109 @@
+.b {
+    width: 100%;
+    height: 100vh;
+    background-image: url("background.png");
+    background-size: cover;
+    background-repeat: repeat-x;
+
+    overflow-x: hidden;
+    position: absolute;
+}
+
+.body {
+    margin: 0px;
+}
+
+.f {
+    height: 150px;
+    margin-top: 520px;
+    position: absolute;
+}
+
+.boy {
+    height: 250px;
+    margin-top: 415px;
+    position: absolute;
+}
+
+.score {
+    position: absolute;
+
+    margin-top: 50px;
+    margin-left: 90px;
+
+    font-size: 60px;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.end {
+
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(pink,rgb(66, 102, 180));
+    position: absolute;
+
+    font-size: 100px;
+    font-weight: bold;
+    color: black;
+    font-family: Arial;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    visibility: hidden;
+
+}
+
+.btn {
+    width: 350px;
+    height: 50px;
+    background-color: rgb(39, 107, 109);
+    border: none;
+    border-radius: 15px;
+
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.win {
+    background-color: aquamarine;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+
+    font-size: 100px;
+    font-weight: bold;
+    font-family: Arial;
+    color: black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    visibility: hidden;
+
+}
+
+.btn1 {
+    width: 200px;
+    height: 50px;
+    background-color: greenyellow;
+    border: none;
+    border-radius: 20px;
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn1:hover {
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    transition-duration: 1s;
+}
